@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>People - Person</title>
+  </head>
+  <body>
+    <section class="Container">
+      <h2>Person to People</h2>
+      <p>Fill Below Three Fields to Merge With People Community</p>
+      <div class="InputContainer">
+        <div>
+          <label for="FirstName">First Name <span>*</span></label>
+          <input type="text" placeholder="Enter First Name" id="FirstName" />
+        </div>
+        <div>
+          <label for="Address"> Address <span>*</span></label>
+          <input type="text" placeholder="Enter your Address" id="Address" />
+        </div>
+        <div>
+          <label for="Age">Age <span>*</span></label>
+          <input type="text" placeholder="Enter your Age" id="Age" />
+        </div>
+      </div>
+      <p id="resultText"></p>
+      <button type="button" class="btn" id="Btn">Add to Community</button>
+      <div class="results">
+        <ul class="ResultList" id="Resultlist">
+          <h2>Peoples Community</h2>
+        </ul>
+      </div>
+    </section>
+
+    <script src="./index.js"></script>
+  </body>
+</html>

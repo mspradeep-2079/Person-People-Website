@@ -1,0 +1,43 @@
+.Container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding: 20px;
+}
+.InputContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+.InputContainer div {
+  width: 100%;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+input {
+  height: 4vh;
+  width: 100%;
+  margin-top: 6px;
+}
+
+h2 {
+  color: #144884;
+  font-weight: bold;
+  padding-bottom: 10px;
+  margin-bottom: 0px;
+}
+
+span {
+  color: red;
+}
+
+.ResultList {
+  width: 100%;
+}
+.ResultList li {
+  width: 100%;
+}
